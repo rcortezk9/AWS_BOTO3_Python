@@ -10,13 +10,13 @@ s3 = boto3.client('s3', region_name='us-east-1',
                   aws_secret_access_key=AWS_SECRET)
 
 # Upload final_report.csv to gid-staging
-s3.upload_file(Bucket='gid-staging',
+s3.upload_file(Bucket='gim-staging',
                # Set filename and key
                Filename='final_report.csv',
                Key='2019/final_report_01_01.csv')
 
 # Get object metadata and print it
-response = s3.head_object(Bucket='gid-staging',
+response = s3.head_object(Bucket='gim-staging',
                           Key='2019/final_report_01_01.csv')
 
 # Print the size of the uploaded object
