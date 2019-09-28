@@ -13,6 +13,7 @@ s3 = boto3.client('s3', region_name='us-east-1',
 response_staging = s3.create_bucket(Bucket='gim-staging')
 response_processed = s3.create_bucket(Bucket='gim-processed1')
 response_test = s3.create_bucket(Bucket='gim-test1')
+response_requests = s3.create_bucket(Bucket='gim-requests')
 
 # Print out the response
 print(response_staging)
