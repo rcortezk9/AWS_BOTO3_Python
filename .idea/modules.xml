@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file:///private/var/folders/dy/06l23r8944lgqwtkpdfk2qm40000gn/T/.bash_profile/.idea/.bash_profile.iml" filepath="/private/var/folders/dy/06l23r8944lgqwtkpdfk2qm40000gn/T/.bash_profile/.idea/.bash_profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AWS_BOTO3_Python.iml" filepath="$PROJECT_DIR$/.idea/AWS_BOTO3_Python.iml" />
     </modules>
   </component>
